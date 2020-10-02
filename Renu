@@ -1,0 +1,45 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    static int sum(int a, int b){
+        return a+b;
+    }
+
+    public static void main(String[] args) {
+        // write your code here
+        System.out.println("Hello world");
+        //  this is a comment and /* is a multiline line comment */
+        /* variables are like containers which store data values
+            Variables In Java:
+            String, int, float, char, boolean
+          */
+//        how to declare variables:
+//        syntax - <datatype> <variablesName> = <value>;
+        String name = "laksh";
+        System.out.println(name);
+// string contains string, int contains integer, float contains decimal value, char contains one character and boolean contains true false
+//        we have to put f in float variables look in 20th line
+        int x = 45, y = 55, z = 65;
+        float b = 45.22f;
+        boolean is_Adult = false;
+        System.out.println(x);
+        System.out.println(b);
+        System.out.println(is_Adult);
+
+/*    Rules for constructing variables in Java:
+      1.  can contain digits,underscore,dollar signs, letters
+      2.  should begin letters, $ or _'underscore'
+      3.  Java is case sensitive language which means laksh and laksh are two different variables altogether
+      4.  should not contain whitespaces
+      5.  ypu cannot reserve keywords from Java
+ */
+   /*   Two types of Java data types:
+        1. primitive - byte (1 byte), short (2 byte), int (4 byte), long (8 byte), float(4 byte),
+           double (8 byte), boolean(1 bit), char (2 byte).
+           1 bit = 2 byte
+        2. non-primitive or reference data types -
+*/
+Gsgeuehen uwttssjndxndjem
